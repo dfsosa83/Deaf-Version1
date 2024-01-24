@@ -14,7 +14,7 @@ With a focus on data-driven decision making and ensemble modeling, this project 
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/project.git
+git clone [https://github.com/your-username/project.git](https://github.com/dfsosa83/Deaf-Version1.git)
 
 
 2. Navigate to the project directory:
