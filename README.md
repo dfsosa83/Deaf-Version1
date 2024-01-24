@@ -1,22 +1,14 @@
 # Deaf-Version1
 Predict forex market using advanced data analysis &amp; ensemble modeling. Features engineering, voting methods, hyperparameter tuning, and super learner model for accurate predictions.
 
-- # DeafReload
+## Description
+This project focuses on predicting a target variable in the forex market using a comprehensive set of variables such as close-open-high. Leveraging a historical database captured in seconds, we conducted thorough descriptive analysis, followed by an augmented data strategy designed to provide additional information and enhance the model's understanding of extreme distributions.
 
-# Forex Volatility Modeling
-This project focuses on modeling forex volatility using a variety of techniques. It explores feature selection methods utilizing voting and trains three different models, followed by a super learner algorithm to generate a final outcome.
+To further optimize performance, extensive feature engineering was performed, including the creation of noise variables that enabled an effective voting process in subsequent stages. The voting method employed three distinct models: ridge regression, decision trees, and linear regression. Each model was subjected to rigorous hyperparameter tuning, accompanied by proper validation sets ensuring accurate outcome assessment against real-world data.
 
-# Overview
-The aim of this project is to develop a robust model for forecasting forex volatility. Volatility in foreign exchange markets is a key factor affecting trading decisions, risk management, and hedging strategies. By accurately predicting volatility, traders and financial institutions can make better-informed decisions.
+By selecting the most influential variables, we trained the three models individually, implementing advanced techniques to fine-tune their performance. Finally, a super learner model was constructed, leveraging the predictions from the aforementioned models to generate the ultimate outcome.
 
-# Features
-Feature selection: The project employs a voting-based feature selection method to identify the most relevant predictors for forex volatility modeling.
-
-# Model training: 
-Three different models are used to capture the complex relationship between predictors and forex volatility. These models are carefully designed and trained using historical data.
-
-# Super learner algorithm: 
-The project introduces a super learner algorithm, which combines the predictions from multiple models to improve the overall accuracy and robustness of the volatility forecast.
+With a focus on data-driven decision making and ensemble modeling, this project offers insights into the predictive capabilities of the forex market, exhibiting a comprehensive approach to extract valuable information and build sophisticated models for accurate forecasting.
 
 ## Installation
 
